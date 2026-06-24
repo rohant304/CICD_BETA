@@ -8,6 +8,6 @@ def test_home_page():
     
     assert response.status_code==200
     
-    assert b"welcome to Flask CI/CD project" in response.data
+    assert b"welcome to  CICD project" in response.data
     
     
